@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:layout_marginBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    android:descendantFocusability="blocksDescendants" >
+
+    <TextView
+        android:id="@+id/tvTicketPassengerStep4Name"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_weight="0.70"
+        android:text="冬布拉"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.70"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvTicketPassengerStep4TrainNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1" />
+
+        <TextView
+            android:id="@+id/tvTicketPassengerStep4Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"            
+            android:textColor="@color/grey"
+            android:text="2" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTicketPassengerStep4SeatNo"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.70"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

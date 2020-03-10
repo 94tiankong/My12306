@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvOrderWaitPayOrderId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您的订单号为：tyy12345，请您尽快进行支付，不然在30分钟后您的订单将会取消！"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ListView
+        android:id="@+id/lvOrderWaitPay"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="260dp" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="45dp" >
+
+        <TextView
+            android:id="@+id/tvOrderWaitPayBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="暂不支付"
+            android:gravity="center"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvOrderWaitPayPay"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="立即支付"
+            android:gravity="center"
+            android:background="@color/orange"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/tvOrderWaitPayCancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="取消订单"
+            android:gravity="center"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+</LinearLayout>

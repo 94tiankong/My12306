@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp" >
+
+    <LinearLayout
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.04"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvNameContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="张三（成人）"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvIdCardContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="身份证：410603199605037582"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/tvTelContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电话号码：13487522547"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:src="@drawable/forward_25" />
+
+</LinearLayout>
